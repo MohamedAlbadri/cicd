@@ -18,7 +18,7 @@ jobs:
         run: sw_vers
   deoendant-job:
     runs-on: windows-latest
-    needs: run-shell-commands
+    needs: run-shell-commands ##
     steps:
         - name: echo a string
           run: Write-Output "windows string"
