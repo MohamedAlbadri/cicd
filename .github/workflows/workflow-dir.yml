@@ -18,7 +18,8 @@ jobs:
       - name: display working dir
         run: |
           pwd
-          ls -a
+          dir
+          ls
           echo $GITHUB_SHA
           echo $GITHIB_REPOSITORY
           echo $GITHUB_WORKSPACE
