@@ -12,7 +12,7 @@ jobs:
           echo $GITHIB_REPOSITORY
           echo $GITHUB_WORKSPACE
             
-  display-wd-info:
+  display-wd-info-win:
     runs-on: windows-latest
     steps:
       - name: display working dir
