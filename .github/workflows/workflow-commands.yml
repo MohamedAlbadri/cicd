@@ -7,3 +7,5 @@ jobs:
         steps:
             - name: setting an error message
               run: echo "::error::Misssing semicolen"
+            - name: Setting an error message with parms
+              run: echo"::error titlr:Error titlr,file=app.js::"
